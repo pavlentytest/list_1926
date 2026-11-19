@@ -60,7 +60,8 @@ fun GreetingPreview2() {
             listOf(Student("Ivan",20),
                 Student("Olga",19),
                 Student("Maria",18),
-                Student("Peter", 21)
+                Student("Peter", 21),
+                Student(name="Natalya",age=20)
             )
         Column(modifier = Modifier.padding(vertical = 50.dp)){
             for(s in students){

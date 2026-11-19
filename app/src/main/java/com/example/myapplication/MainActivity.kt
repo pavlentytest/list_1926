@@ -65,7 +65,7 @@ fun GreetingPreview2() {
         Column(modifier = Modifier.padding(vertical = 50.dp)){
             for(s in students){
                 Row(modifier = Modifier.padding(10.dp).fillMaxWidth()){
-                    Box(modifier=Modifier.size(50.dp).background(Color.Cyan))
+                    Box(modifier=Modifier.size(50.dp).background(Color.Green))
                     Text(text = s.name, fontSize = 28.sp, modifier = Modifier.padding(10.dp))
                 }
             }
